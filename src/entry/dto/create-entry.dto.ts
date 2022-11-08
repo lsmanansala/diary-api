@@ -1,6 +1,6 @@
 import { IsNotEmpty, IsOptional, IsString } from 'class-validator';
 
-export class CreateDiaryEntryDto {
+export class CreateEntryDto {
   @IsString()
   @IsNotEmpty()
   title: string;

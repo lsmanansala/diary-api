@@ -4,7 +4,7 @@ import { UserModule } from './user/user.module';
 import { DiaryModule } from './diary/diary.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { ConfigModule } from '@nestjs/config';
-import { DiaryEntryModule } from './diary-entry/diary-entry.module';
+import { EntryModule } from './entry/entry.module';
 
 @Module({
   imports: [
@@ -13,7 +13,7 @@ import { DiaryEntryModule } from './diary-entry/diary-entry.module';
     UserModule,
     DiaryModule,
     PrismaModule,
-    DiaryEntryModule,
+    EntryModule,
   ],
 })
 export class AppModule {}

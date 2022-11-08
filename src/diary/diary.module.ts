@@ -4,6 +4,6 @@ import { DiaryController } from './diary.controller';
 
 @Module({
   providers: [DiaryService],
-  controllers: [DiaryController]
+  controllers: [DiaryController],
 })
 export class DiaryModule {}
